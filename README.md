@@ -1,2 +1,2 @@
 # icare
-icare campaing from the Invisible Hand of HUmanism
+Icare campaing from the Invisible Hand of Humanism
