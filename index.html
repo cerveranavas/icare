@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I Care Sticker Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --icare-blue: #006bb6;
+      --bg: #ffffff;
+      --text: #222222;
+      --max-width: 900px;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+    }
+
+    .page {
+      max-width: var(--max-width);
+      width: 100%;
+      padding: 24px 16px 48px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      color: var(--icare-blue);
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+      color: var(--icare-blue);
+    }
+
+    p {
+      line-height: 1.6;
+      margin-top: 0.4rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .intro {
+      background: #f5f7fb;
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      border: 1px solid #dde3f0;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .sticker-card {
+      background: #ffffff;
+      border-radius: var(--radius);
+      border: 1px solid #e0e4ef;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    }
+
+    .sticker-card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 4px auto 10px;
+    }
+
+    .label {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    a.btn {
+      display: inline-block;
+      padding: 6px 10px;
+      font-size: 0.85rem;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid var(--icare-blue);
+      color: var(--icare-blue);
+      background: #ffffff;
+      transition: all 0.15s ease-in-out;
+      white-space: nowrap;
+    }
+
+    a.btn:hover {
+      background: var(--icare-blue);
+      color: #ffffff;
+    }
+
+    .pdf-box {
+      margin-top: 18px;
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      border: 1px dashed #c7cfe5;
+      background: #f9fbff;
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 0.85rem;
+      color: #666666;
+      text-align: center;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>The “I Care” Sticker Hub</h1>
+      <p><strong>Thank you for reading <em>[The Invisible Hand of Humanism]</em> and for wanting to help.</strong></p>
+    </header>
+
+    <section class="intro">
+      <p>
+        This page gives you everything you need to join the <strong>“I Care” initiative</strong>
+        with one small, visible gesture.
+      </p>
+      <p>
+        Each sticker says:
+        <br>
+        <strong>“I care about [VALUE] and I want to help.”</strong>
+      </p>
+      <p>
+        Choose the value that matters most to you, download the sticker, and display it on your
+        social media profiles or in physical spaces such as your laptop, window, office door,
+        bicycle, or notebook.
+      </p>
+    </section>
+
+    <h2>1. Choose your sticker</h2>
+    <p>Click on any value below to download its sticker.</p>
+
+    <div class="grid">
+      <!-- DEMOCRACY -->
+      <div class="sticker-card">
+        <div class="label">Democracy</div>
+        <a href="stickers/sticker_democracy.png" download>
+          <img src="stickers/sticker_democracy.png" alt="I care about DEMOCRACY and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_democracy.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- FREEDOM -->
+      <div class="sticker-card">
+        <div class="label">Freedom</div>
+        <a href="stickers/sticker_freedom.png" download>
+          <img src="stickers/sticker_freedom.png" alt="I care about FREEDOM and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_freedom.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- TRUTH -->
+      <div class="sticker-card">
+        <div class="label">Truth</div>
+        <a href="stickers/sticker_truth.png" download>
+          <img src="stickers/sticker_truth.png" alt="I care about TRUTH and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_truth.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- EQUALITY -->
+      <div class="sticker-card">
+        <div class="label">Equality</div>
+        <a href="stickers/sticker_equality.png" download>
+          <img src="stickers/sticker_equality.png" alt="I care about EQUALITY and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_equality.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- JUSTICE -->
+      <div class="sticker-card">
+        <div class="label">Justice</div>
+        <a href="stickers/sticker_justice.png" download>
+          <img src="stickers/sticker_justice.png" alt="I care about JUSTICE and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_justice.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- PEACE -->
+      <div class="sticker-card">
+        <div class="label">Peace</div>
+        <a href="stickers/sticker_peace.png" download>
+          <img src="stickers/sticker_peace.png" alt="I care about PEACE and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_peace.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- DIGNITY -->
+      <div class="sticker-card">
+        <div class="label">Dignity</div>
+        <a href="stickers/sticker_dignity.png" download>
+          <img src="stickers/sticker_dignity.png" alt="I care about DIGNITY and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_dignity.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="sticker-card">
+        <div class="label">Education</div>
+        <a href="stickers/sticker_education.png" download>
+          <img src="stickers/sticker_education.png" alt="I care about EDUCATION and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_education.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- ETHICS -->
+      <div class="sticker-card">
+        <div class="label">Ethics</div>
+        <a href="stickers/sticker_ethics.png" download>
+          <img src="stickers/sticker_ethics.png" alt="I care about ETHICS and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_ethics.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- TOLERANCE -->
+      <div class="sticker-card">
+        <div class="label">Tolerance</div>
+        <a href="stickers/sticker_tolerance.png" download>
+          <img src="stickers/sticker_tolerance.png" alt="I care about TOLERANCE and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_tolerance.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- HUMANITY -->
+      <div class="sticker-card">
+        <div class="label">Humanity</div>
+        <a href="stickers/sticker_humanity.png" download>
+          <img src="stickers/sticker_humanity.png" alt="I care about HUMANITY and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_humanity.png" download>Download PNG</a>
+        </div>
+      </div>
+
+      <!-- THE PLANET -->
+      <div class="sticker-card">
+        <div class="label">The Planet</div>
+        <a href="stickers/sticker_theplanet.png" download>
+          <img src="stickers/sticker_theplanet.png" alt="I care about THE PLANET and I want to help">
+        </a>
+        <div class="buttons">
+          <a class="btn" href="stickers/sticker_theplanet.png" download>Download PNG</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pdf-box">
+      <h2>2. Print your stickers</h2>
+      <p>
+        If you prefer physical stickers, you can download a print-ready PDF with all designs
+        on a single A4 page. You can print it on regular paper or adhesive sticker paper.
+      </p>
+      <p>
+        <a class="btn" href="downloads/icare_stickers_sheet.pdf" download>Download print-ready PDF</a>
+      </p>
+    </div>
+
+    <h2>3. For organisations and NGOs</h2>
+    <p>
+      If you represent an NGO, school, university, company, or association, you are welcome to
+      use these stickers in your own communication. The only condition is that the core design
+      remains unchanged so that we all speak with one shared, recognisable visual signal.
+    </p>
+
+    <footer>
+      <p>
+        The “I Care” initiative is non-partisan and decentralised. It is not a political party
+        or a campaign, but a civic gesture: a way for citizens to say, quietly but visibly,
+        “I care about our shared future, and I am willing to contribute.”
+      </p>
+      <p>
+        Thank you for being part of the invisible hand of humanism.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
